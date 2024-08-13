@@ -2,8 +2,8 @@
     --cor-fundo: #01080E ;
     --cor-principal: #0B0D20 ;
     --cor-secundaria: #212333; 
-    --cor-destaque: #5ffd2b;
-    --cor-texto: #81f764;
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
 
 }
 
@@ -26,4 +26,7 @@ body {
 
 h1{
     color: var(--cor-destaque);
+}
+.caixa-pergunta{
+    padding-bottom: 10px;
 }
