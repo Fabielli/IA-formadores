@@ -79,10 +79,12 @@ function respostaSelecionada(opcaoSelecionada){
     mostraPergunta();
 }
 
+mostraPergunta();
+
+
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "IA mostra perfil de quem ajuda o meio ambiente!";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
 
-mostraPergunta();
